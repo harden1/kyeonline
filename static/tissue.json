@@ -1,0 +1,120 @@
+{
+    "projectLeader": "杨鹏远",
+    "deptStructure": [
+        {
+            "deptName": "项目管理",
+            "staffStructure": [
+                {
+                    "position": "项目管理总监",
+                    "name": "伍朝伟"
+                },
+                {
+                    "position": "总监助理",
+                    "name": "孙陆辈"
+                }
+            ]
+        },
+        {
+            "deptName": "产品运营",
+            "staffStructure": [
+                {
+                    "position": "电商产品运营总监",
+                    "name": "林旭升"
+                },
+                {
+                    "position": "产品经理",
+                    "name": "陈全勇"
+                }
+            ]
+        },
+        {
+            "deptName": "开发架构",
+            "staffStructure": [
+                {
+                    "position": "CTO助理",
+                    "name": "李恒"
+                },
+                {
+                    "position": "系统架构师",
+                    "name": "李刚"
+                },
+                {
+                    "position": "系统架构师",
+                    "name": "吴鹏"
+                },
+                {
+                    "position": "系统架构师",
+                    "name": "曾浏"
+                },
+                {
+                    "position": "系统架构师",
+                    "name": "吕南翔"
+                },
+                {
+                    "position": "系统架构师",
+                    "name": "陈鋆"
+                }
+            ]
+        },
+        {
+            "deptName": "互联网",
+            "staffStructure": [
+                {
+                    "position": "互联网产品总监",
+                    "name": "林育宏"
+                },
+                {
+                    "position": "前端架构师",
+                    "name": "罗新芳"
+                },
+                {
+                    "position": "前端架构师",
+                    "name": "陈晶"
+                },
+                {
+                    "position": "前端开发工程师",
+                    "name": "许道斌"
+                },
+                {
+                    "position": "前端开发工程师",
+                    "name": "马翔宇"
+                },
+                {
+                    "position": "前端开发工程师",
+                    "name": "陈晓华"
+                }
+                
+            ]
+        },
+        {
+            "deptName": "测试",
+            "staffStructure": [
+                {
+                    "position": "高级互联网测试工程师",
+                    "name": "邹纯"
+                },
+                {
+                    "position": "互联网测试工程师",
+                    "name": "郭鹏娟"
+                }
+            ]
+        },
+        {
+            "deptName": "运维架构",
+            "staffStructure": [
+                {
+                    "position": "高级电商运维经理",
+                    "name": "彭传飞"
+                },
+                {
+                    "position": "运维经理",
+                    "name": "周少林"
+                },
+                {
+                    "position": "安全架构师",
+                    "name": "周作平"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+/*
+ * @Author: yinxianbiao 
+ * @Date: 2017-08-21 21:45:50 
+ * @Last Modified by: yinxianbiao
+ * @Last Modified time: 2017-08-21 22:16:37
+ */
+
+@include skel-layout(( 
+    reset: normalize, 
+    boxModel: border,
+    skel:(
+        (position,(absolute,fixed,relative)),
+        (display,(inline,block,inline-block,none))
+    ),
+    consts: ( 
+        (font-size, 10, 26), 
+        (border-radius, 2, 6)
+    ))
+);
+
+%position-center {
+    left     : 50%;
+    top      : 50%;
+    @extend %absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+%clearfix {
+    &:after,
+    &:before {
+        content: '';
+        display: table;
+        font: 0/0 a;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+%vertical-center {
+    &>*,
+    &:after {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &:after {
+        content: '';
+        visibility: hidden;
+        height: 100%;
+    }
+}
+
+%mg-auto {
+    margin-left : auto;
+    margin-right: auto;
+}
+%ft-l{
+    float: left;
+}
+%ft-r{
+    float: right;
+}
+
+%ellipsis {
+    overflow     : hidden;
+    white-space  : nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,41 @@
+/*
+ * @Author: yinxianbiao 
+ * @Date: 2017-08-21 21:46:01 
+ * @Last Modified by: yinxianbiao
+ * @Last Modified time: 2017-08-21 21:58:02
+ */
+
+//Font
+$font:( 
+    family        : ("Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif),
+    weight-bold   : 600,
+    letter-spacing: 1px
+);
+
+//Palette:
+$palette: ( 
+     bg         : #26293c,
+     bg-light1  : #2b3247,
+     bg-light2  : #343b52,
+     color      : #626a86,
+     color-light: #fff,
+     chart:(
+        c1: #63a8eb,
+        c2: #45be89,
+        c3: #f2a553,
+        c4: #926dde,
+        c5: #57c7d3
+     ),
+     status:(
+         s1: _palette(chart,c1),
+         s2: _palette(chart,c3),
+         s3: #f86464,
+     ),
+     login:(
+         bg       : #878fa2,
+         bg-dark  : #7a8195,
+         border-bg: #707688
+     )
+ );
+
+

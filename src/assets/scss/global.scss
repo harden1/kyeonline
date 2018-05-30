@@ -1,0 +1,30 @@
+@import './libs/vars';
+@import './libs/mixins';
+@import './libs/layout';
+@import './libs/function';
+body,
+html {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    @extend %font-size14;
+    font-family: _font(family);
+}
+
+body {
+    color: _palette(color);
+    background-color: _palette(bg);
+}
+
+input,
+button,
+textarea,
+select {
+    outline: 0;
+    @extend %font-size14;
+    font-family: _font(family);
+}
+
+.loading {
+    background-color: rgba(31, 31, 31, .5);
+}

@@ -1,0 +1,19 @@
+/*
+ * @Author: Yinxianbiao
+ * @Date: 2017-08-12 20:23:15 
+ * @Last Modified by: yinxianbiao
+ * @Last Modified time: 2017-08-15 13:42:30
+ */
+
+/**
+ * 获取颜色值
+ * @param {string} $keys
+ * @return {string} Value
+ */
+@function _palette($keys...) {
+    @return val($palette,$keys...);
+}
+
+@function _font($keys...){
+    @return val($font,$keys...);
+}
