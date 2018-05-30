@@ -11,7 +11,8 @@
 
 ![image](https://github.com/harden1/kyeonline/blob/master/static/1.png)
 
-![image](https://github.com/harden1/kyeonline/blob/master/static/2.png)
+![image](https://github.com/harden1/keyonline/blob/master/static/2.png)
+
 
 
 ### 安装与运行
