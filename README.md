@@ -13,7 +13,6 @@
 
 ![image](https://github.com/harden1/kyeonline/blob/master/static/2.png)
 
-![image](https://github.com/harden1/vuemusic/blob/master/static/4.png)
 
 ### 安装与运行
 
